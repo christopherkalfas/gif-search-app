@@ -20,7 +20,7 @@ export default class App extends Component {
 
   //Refactor2-Wired up search bar to take dynamic user input to render results
   performSearch = (query = 'cats') => {
-    axios.get(`http://api.giphy.com/v1/gifs/search?q=${query}&limit=24&api_key=5mscSow7ozMpCy6J76LJFTZF9dW1L53Y`)
+    axios.get(`https://api.giphy.com/v1/gifs/search?q=${query}&limit=24&api_key=5mscSow7ozMpCy6J76LJFTZF9dW1L53Y`)
       .then(response => {
         this.setState({
           gifs: response.data.data,
