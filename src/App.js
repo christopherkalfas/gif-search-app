@@ -74,6 +74,7 @@ export default class App extends Component {
             : <GifList data={this.state.gifs} />
           }
         </div>
+        <h5 className="footer">Powered by GIPHY</h5>
       </div>
     );
   }
