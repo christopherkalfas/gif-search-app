@@ -24,7 +24,7 @@ export default class SearchForm extends Component {
                 onChange={this.onSearchChange}
                 name="search"
                 ref={(input) => this.query = input} 
-                placeholder="Search..." />
+                placeholder="crying jordan, trial by combat, pizza rat..." />
             <button type="submit" id="submit" className="search-button"><i className="material-icons icn-search">search</i></button>
         </form>      
         );
